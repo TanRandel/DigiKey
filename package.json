@@ -1,5 +1,5 @@
 {
-  "name": "e-commerce-site",
+  "name": "DigiKey",
   "version": "0.1.0",
   "homepage": "https://TanRandel.github.io/DigiKey",
   "private": true,
@@ -14,8 +14,8 @@
     "styled-components": "^4.3.2"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4"
   }
